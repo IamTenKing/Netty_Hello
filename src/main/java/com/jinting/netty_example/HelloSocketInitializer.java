@@ -23,7 +23,5 @@ public class HelloSocketInitializer extends ChannelInitializer<SocketChannel> {
         //添加自定义的助手类，返回"hello netty"
         pipeline.addLast("customHandler",new CustomerHandler());
 
-
-
     }
 }
